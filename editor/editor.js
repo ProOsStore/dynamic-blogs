@@ -1,7 +1,7 @@
 
-const url = 'https://api.github.com/repos/username/repo/contents/posts.json';
+const url = 'https://api.github.com/repos/ProOsStore/dynamic-blogs/contents/posts.json';
 
-const token = 'YOUR_GITHUB_PERSONAL_ACCESS_TOKEN';
+const token = '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';
 
 function getBlogs() {
 
