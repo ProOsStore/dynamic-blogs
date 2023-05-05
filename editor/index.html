@@ -1,1 +1,42 @@
 
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Blog Editor</title>	<link rel="stylesheet" href="editor.css">
+
+</head>
+
+<body>
+
+	<h1>Blog Editor</h1>
+
+	<label>Title:</label>
+
+	<input type="text" id="title"><br>
+
+	<label>Image URL:</label>
+
+	<input type="text" id="image"><br>
+
+	<label>Content:</label>
+
+	<textarea id="content"></textarea><br>
+
+	<button id="save">Save</button>
+
+	<h2>Posted Blogs</h2>
+
+	<ul id="blog-list"></ul>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="editor.js"></script>
+
+</body>
+
+</html>
